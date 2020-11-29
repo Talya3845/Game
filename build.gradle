@@ -1,0 +1,28 @@
+
+plugins {
+    id 'java'
+    id 'application'
+    id 'org.openjfx.javafxplugin' version '0.0.8'
+}
+javafx {
+    version = "13.0.2"
+    modules = [ 'javafx.controls', 'javafx.fxml','javafx.media','javafx.swing','javafx.base']
+}
+
+
+mainClassName="JavaFxApp"
+compileJava {options.encoding = "UTF-8"}
+
+
+group 'org.example'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+    compile 'io.github.typhon0:AnimateFX:1.2.1'
+
+}

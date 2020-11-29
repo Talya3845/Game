@@ -1,0 +1,632 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+
+
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.shape.Rectangle?>
+<AnchorPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="GameBoardMedium"
+            prefHeight="400.0" prefWidth="600.0">
+    <children>
+        <ImageView fitHeight="550.0" fitWidth="650.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@background.jpg" />
+            </image>
+        </ImageView>
+
+
+        <GridPane fx:id="mapGrid" layoutX="121.0" layoutY="33.0" prefHeight="461.0" prefWidth="419.0">
+            <columnConstraints>
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="50.0" />
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="50.0" />
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="50.0" />
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="50.0" />
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="50.0" />
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="50.0" />
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="50.0" />
+            </columnConstraints>
+            <rowConstraints>
+                <RowConstraints minHeight="10.0" prefHeight="50.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="50.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="50.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="50.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="50.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="50.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="50.0" vgrow="SOMETIMES" />
+                <RowConstraints />
+                <RowConstraints />
+
+            </rowConstraints>
+            <TextArea editable="false" text="43" GridPane.columnIndex="0" GridPane.rowIndex="0">
+                <effect>
+                    <InnerShadow />
+                </effect>
+            </TextArea>
+            <TextArea editable="false" text="44" GridPane.columnIndex="1" GridPane.rowIndex="0">
+                <effect>
+                    <Lighting>
+                        <bumpInput>
+                            <Shadow />
+                        </bumpInput>
+                        <light>
+                            <Light.Distant />
+                        </light>
+                    </Lighting>
+                </effect>
+            </TextArea>
+            <TextArea editable="false" text="45" GridPane.columnIndex="2" GridPane.rowIndex="0">
+                <effect>
+                    <InnerShadow />
+                </effect>
+            </TextArea>
+            <TextArea text="46" GridPane.columnIndex="3" GridPane.rowIndex="0">
+                <effect>
+                    <Lighting>
+                        <bumpInput>
+                            <Shadow />
+                        </bumpInput>
+                        <light>
+                            <Light.Distant />
+                        </light>
+                    </Lighting>
+                </effect></TextArea>
+            <TextArea text="47" GridPane.columnIndex="4" GridPane.rowIndex="0">
+                <effect>
+                    <InnerShadow />
+                </effect></TextArea>
+            <TextArea editable="false" text="48" GridPane.columnIndex="5" GridPane.rowIndex="0">
+                <effect>
+                    <Lighting>
+                        <bumpInput>
+                            <Shadow />
+                        </bumpInput>
+                        <light>
+                            <Light.Distant />
+                        </light>
+                    </Lighting>
+                </effect>
+            </TextArea>
+            <TextArea editable="false" text="49" GridPane.columnIndex="6" GridPane.rowIndex="0">
+                <effect>
+                    <InnerShadow />
+                </effect>
+            </TextArea>
+            <TextArea text="36" GridPane.columnIndex="0" GridPane.rowIndex="1">
+                <effect>
+                    <Lighting>
+                        <bumpInput>
+                            <Shadow />
+                        </bumpInput>
+                        <light>
+                            <Light.Distant />
+                        </light>
+                    </Lighting>
+                </effect></TextArea>
+            <TextArea text="37" GridPane.columnIndex="1" GridPane.rowIndex="1">
+                <effect>
+                    <InnerShadow />
+                </effect></TextArea>
+            <TextArea text="38" GridPane.columnIndex="2" GridPane.rowIndex="1">
+                <effect>
+                    <Lighting>
+                        <bumpInput>
+                            <Shadow />
+                        </bumpInput>
+                        <light>
+                            <Light.Distant />
+                        </light>
+                    </Lighting>
+                </effect></TextArea>
+            <TextArea text="39" GridPane.columnIndex="3" GridPane.rowIndex="1">
+                <effect>
+                    <InnerShadow />
+                </effect></TextArea>
+            <TextArea text="40" GridPane.columnIndex="4" GridPane.rowIndex="1">
+                <effect>
+                    <Lighting>
+                        <bumpInput>
+                            <Shadow />
+                        </bumpInput>
+                        <light>
+                            <Light.Distant />
+                        </light>
+                    </Lighting>
+                </effect></TextArea>
+            <TextArea text="41" GridPane.columnIndex="5" GridPane.rowIndex="1">
+                <effect>
+                    <InnerShadow />
+                </effect></TextArea>
+            <TextArea editable="false" text="42" GridPane.columnIndex="6" GridPane.rowIndex="1">
+                <effect>
+                    <Lighting>
+                        <bumpInput>
+                            <Shadow />
+                        </bumpInput>
+                        <light>
+                            <Light.Distant />
+                        </light>
+                    </Lighting>
+                </effect>
+                <cursor>
+                    <Cursor fx:constant="DEFAULT" />
+                </cursor></TextArea>
+            <TextArea text="29" GridPane.columnIndex="0" GridPane.rowIndex="2">
+                <effect>
+                    <InnerShadow />
+                </effect></TextArea>
+            <TextArea text="30" GridPane.columnIndex="1" GridPane.rowIndex="2">
+                <effect>
+                    <Lighting>
+                        <bumpInput>
+                            <Shadow />
+                        </bumpInput>
+                        <light>
+                            <Light.Distant />
+                        </light>
+                    </Lighting>
+                </effect></TextArea>
+            <TextArea text="31" GridPane.columnIndex="2" GridPane.rowIndex="2">
+                <effect>
+                    <InnerShadow />
+                </effect></TextArea>
+            <TextArea text="32" GridPane.columnIndex="3" GridPane.rowIndex="2">
+                <effect>
+                    <Lighting>
+                        <bumpInput>
+                            <Shadow />
+                        </bumpInput>
+                        <light>
+                            <Light.Distant />
+                        </light>
+                    </Lighting>
+                </effect></TextArea>
+            <TextArea text="33" GridPane.columnIndex="4" GridPane.rowIndex="2">
+                <effect>
+                    <InnerShadow />
+                </effect></TextArea>
+            <TextArea text="34" GridPane.columnIndex="5" GridPane.rowIndex="2">
+                <effect>
+                    <Lighting>
+                        <bumpInput>
+                            <Shadow />
+                        </bumpInput>
+                        <light>
+                            <Light.Distant />
+                        </light>
+                    </Lighting>
+                </effect></TextArea>
+            <TextArea text="35" GridPane.columnIndex="6" GridPane.rowIndex="2">
+                <effect>
+                    <InnerShadow />
+                </effect></TextArea>
+            <TextArea text="22" GridPane.columnIndex="0" GridPane.rowIndex="3">
+                <effect>
+                    <Lighting>
+                        <bumpInput>
+                            <Shadow />
+                        </bumpInput>
+                        <light>
+                            <Light.Distant />
+                        </light>
+                    </Lighting>
+                </effect></TextArea>
+            <TextArea text="23" GridPane.columnIndex="1" GridPane.rowIndex="3">
+                <effect>
+                    <InnerShadow />
+                </effect></TextArea>
+            <TextArea text="24" GridPane.columnIndex="2" GridPane.rowIndex="3">
+                <effect>
+                    <Lighting>
+                        <bumpInput>
+                            <Shadow />
+                        </bumpInput>
+                        <light>
+                            <Light.Distant />
+                        </light>
+                    </Lighting>
+                </effect></TextArea>
+            <TextArea text="25" GridPane.columnIndex="3" GridPane.rowIndex="3">
+                <effect>
+                    <InnerShadow />
+                </effect></TextArea>
+            <TextArea text="26" GridPane.columnIndex="4" GridPane.rowIndex="3">
+                <effect>
+                    <Lighting>
+                        <bumpInput>
+                            <Shadow />
+                        </bumpInput>
+                        <light>
+                            <Light.Distant />
+                        </light>
+                    </Lighting>
+                </effect></TextArea>
+            <TextArea text="27" GridPane.columnIndex="5" GridPane.rowIndex="3">
+                <effect>
+                    <InnerShadow />
+                </effect></TextArea>
+            <TextArea text="28" GridPane.columnIndex="6" GridPane.rowIndex="3">
+                <effect>
+                    <Lighting>
+                        <bumpInput>
+                            <Shadow />
+                        </bumpInput>
+                        <light>
+                            <Light.Distant />
+                        </light>
+                    </Lighting>
+                </effect></TextArea>
+            <TextArea text="15" GridPane.columnIndex="0" GridPane.rowIndex="4">
+                <effect>
+                    <InnerShadow />
+                </effect></TextArea>
+            <TextArea text="16" GridPane.columnIndex="1" GridPane.rowIndex="4">
+                <effect>
+                    <Lighting>
+                        <bumpInput>
+                            <Shadow />
+                        </bumpInput>
+                        <light>
+                            <Light.Distant />
+                        </light>
+                    </Lighting>
+                </effect></TextArea>
+            <TextArea text="17" GridPane.columnIndex="2" GridPane.rowIndex="4">
+                <effect>
+                    <InnerShadow />
+                </effect></TextArea>
+            <TextArea text="18" GridPane.columnIndex="3" GridPane.rowIndex="4">
+                <effect>
+                    <Lighting>
+                        <bumpInput>
+                            <Shadow />
+                        </bumpInput>
+                        <light>
+                            <Light.Distant />
+                        </light>
+                    </Lighting>
+                </effect></TextArea>
+            <TextArea text="19" GridPane.columnIndex="4" GridPane.rowIndex="4">
+                <effect>
+                    <InnerShadow />
+                </effect></TextArea>
+            <TextArea text="20" GridPane.columnIndex="5" GridPane.rowIndex="4">
+                <effect>
+                    <Lighting>
+                        <bumpInput>
+                            <Shadow />
+                        </bumpInput>
+                        <light>
+                            <Light.Distant />
+                        </light>
+                    </Lighting>
+                </effect></TextArea>
+            <TextArea text="21" GridPane.columnIndex="6" GridPane.rowIndex="4">
+                <effect>
+                    <InnerShadow />
+                </effect></TextArea>
+            <TextArea text="8" GridPane.columnIndex="0" GridPane.rowIndex="5">
+                <effect>
+                    <Lighting>
+                        <bumpInput>
+                            <Shadow />
+                        </bumpInput>
+                        <light>
+                            <Light.Distant />
+                        </light>
+                    </Lighting>
+                </effect></TextArea>
+            <TextArea text="9" GridPane.columnIndex="1" GridPane.rowIndex="5">
+                <effect>
+                    <InnerShadow />
+                </effect></TextArea>
+            <TextArea text="10" GridPane.columnIndex="2" GridPane.rowIndex="5">
+                <effect>
+                    <Lighting>
+                        <bumpInput>
+                            <Shadow />
+                        </bumpInput>
+                        <light>
+                            <Light.Distant />
+                        </light>
+                    </Lighting>
+                </effect></TextArea>
+            <TextArea text="11" GridPane.columnIndex="3" GridPane.rowIndex="5">
+                <effect>
+                    <InnerShadow />
+                </effect></TextArea>
+            <TextArea text="12" GridPane.columnIndex="4" GridPane.rowIndex="5">
+                <effect>
+                    <Lighting>
+                        <bumpInput>
+                            <Shadow />
+                        </bumpInput>
+                        <light>
+                            <Light.Distant />
+                        </light>
+                    </Lighting>
+                </effect></TextArea>
+            <TextArea text="13" GridPane.columnIndex="5" GridPane.rowIndex="5">
+                <effect>
+                    <InnerShadow />
+                </effect></TextArea>
+            <TextArea text="14" GridPane.columnIndex="6" GridPane.rowIndex="5">
+                <effect>
+                    <Lighting>
+                        <bumpInput>
+                            <Shadow />
+                        </bumpInput>
+                        <light>
+                            <Light.Distant />
+                        </light>
+                    </Lighting>
+                </effect></TextArea>
+            <TextArea text="1" GridPane.rowIndex="6">
+                <effect>
+                    <InnerShadow />
+                </effect></TextArea>
+            <TextArea text="2" GridPane.columnIndex="1" GridPane.rowIndex="6">
+                <effect>
+                    <Lighting>
+                        <bumpInput>
+                            <Shadow />
+                        </bumpInput>
+                        <light>
+                            <Light.Distant />
+                        </light>
+                    </Lighting>
+                </effect></TextArea>
+            <TextArea text="3" GridPane.columnIndex="2" GridPane.rowIndex="6">
+                <effect>
+                    <InnerShadow />
+                </effect></TextArea>
+            <TextArea text="4" GridPane.columnIndex="3" GridPane.rowIndex="6">
+                <effect>
+                    <Lighting>
+                        <bumpInput>
+                            <Shadow />
+                        </bumpInput>
+                        <light>
+                            <Light.Distant />
+                        </light>
+                    </Lighting>
+                </effect></TextArea>
+            <TextArea text="5" GridPane.columnIndex="4" GridPane.rowIndex="6">
+                <effect>
+                    <InnerShadow />
+                </effect></TextArea>
+            <TextArea text="6" GridPane.columnIndex="5" GridPane.rowIndex="6">
+                <effect>
+                    <Lighting>
+                        <bumpInput>
+                            <Shadow />
+                        </bumpInput>
+                        <light>
+                            <Light.Distant />
+                        </light>
+                    </Lighting>
+                </effect></TextArea>
+            <TextArea text="7" GridPane.columnIndex="6" GridPane.rowIndex="6">
+                <effect>
+                    <InnerShadow />
+                </effect></TextArea>
+
+            <ImageView fitHeight="102.0" fitWidth="143.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="2" GridPane.rowIndex="2">
+                <image>
+                    <Image url="@../../../build/resources/main/snack2.png" />
+                </image>
+
+            </ImageView>
+            <ImageView fitHeight="151.0" fitWidth="179.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="1" GridPane.rowIndex="4">
+                <image>
+                    <Image url="@../../../build/resources/main/snack1.png" />
+                </image>
+            </ImageView>
+            <ImageView fitHeight="100.0" fitWidth="42.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="3" GridPane.rowIndex="5">
+                <image>
+                    <Image url="@../../../build/resources/main/ladder2.png" />
+                </image>
+            </ImageView>
+            <ImageView fitHeight="88.0" fitWidth="153.0" nodeOrientation="RIGHT_TO_LEFT" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="4" GridPane.rowIndex="6">
+                <image>
+                    <Image url="@../../../build/resources/main/snake3.png" />
+                </image>
+            </ImageView>
+            <ImageView fitHeight="76.0" fitWidth="47.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="6" GridPane.rowIndex="6">
+                <image>
+                    <Image url="@../../../build/resources/main/supprise.png" />
+                </image>
+            </ImageView>
+            <ImageView fitHeight="76.0" fitWidth="47.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="4" GridPane.rowIndex="1">
+                <image>
+                    <Image url="@../../../build/resources/main/supprise.png" />
+                </image>
+            </ImageView>
+            <ImageView fitHeight="76.0" fitWidth="47.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="4" GridPane.rowIndex="4">
+                <image>
+                    <Image url="@../../../build/resources/main/supprise.png" />
+                </image>
+            </ImageView>
+            <ImageView fitHeight="76.0" fitWidth="47.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="1" GridPane.rowIndex="3">
+                <image>
+                    <Image url="@../../../build/resources/main/supprise.png" />
+                </image>
+            </ImageView>
+            <ImageView fitHeight="76.0" fitWidth="47.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="1" GridPane.rowIndex="6">
+                <image>
+                    <Image url="@../../../build/resources/main/supprise.png" />
+                </image>
+            </ImageView>
+            <ImageView fitHeight="114.0" fitWidth="43.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="5" GridPane.rowIndex="1">
+                <image>
+                    <Image url="@../../../build/resources/main/ladder4.png" />
+                </image>
+            </ImageView>
+            <ImageView fitHeight="43.0" fitWidth="72.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="6">
+                <image>
+                    <Image url="@../../../build/resources/main/finish.png" />
+                </image>
+            </ImageView>
+            <ImageView fitHeight="110.0" fitWidth="43.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="6" GridPane.rowIndex="3">
+                <image>
+                    <Image url="@../../../build/resources/main/ladder2.png" />
+                </image>
+            </ImageView>
+
+        </GridPane>
+
+        <ImageView fitHeight="186.0" fitWidth="125.0" layoutX="-2.0" layoutY="157.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../../../build/resources/main/box.png" />
+            </image>
+        </ImageView>
+        <ImageView fx:id="package" fitHeight="70.0" fitWidth="50.0" layoutX="40.0" layoutY="188.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../../../build/resources/main/cardSup.jpg" />
+            </image>
+            <cursor>
+                <Cursor fx:constant="HAND" />
+            </cursor>
+            <effect>
+                <Blend />
+            </effect>
+        </ImageView>
+
+        <ImageView fx:id="dice61" fitHeight="50.0" fitWidth="50.0" layoutX="59.0" layoutY="260.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../../../build/resources/main/dice6.png" />
+            </image>
+            <cursor>
+                <Cursor fx:constant="HAND" />
+            </cursor></ImageView>
+        <ImageView fx:id="dice51" fitHeight="50.0" fitWidth="50.0" layoutX="59.0" layoutY="260.0" opacity="0.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../../../build/resources/main/dice5.png" />
+            </image>
+            <cursor>
+                <Cursor fx:constant="HAND" />
+            </cursor></ImageView>
+        <ImageView fx:id="dice21" fitHeight="50.0" fitWidth="50.0" layoutX="59.0" layoutY="260.0" opacity="0.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../../../build/resources/main/dice2.png" />
+            </image>
+            <cursor>
+                <Cursor fx:constant="HAND" />
+            </cursor></ImageView>
+        <ImageView fx:id="dice11" fitHeight="50.0" fitWidth="50.0" layoutX="59.0" layoutY="260.0" opacity="0.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../../../build/resources/main/dice1.png" />
+            </image>
+            <cursor>
+                <Cursor fx:constant="HAND" />
+            </cursor></ImageView>
+        <ImageView fx:id="dice41" fitHeight="50.0" fitWidth="50.0" layoutX="59.0" layoutY="260.0" opacity="0.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../../../build/resources/main/dice4.png" />
+            </image>
+            <cursor>
+                <Cursor fx:constant="HAND" />
+            </cursor></ImageView>
+
+        <ImageView fx:id="dice31" fitHeight="50.0" fitWidth="50.0" layoutX="59.0" layoutY="260.0" opacity="0.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../../../build/resources/main/dice3.png" />
+            </image>
+            <cursor>
+                <Cursor fx:constant="HAND" />
+            </cursor></ImageView>
+        <ImageView fx:id="dice52" fitHeight="50.0" fitWidth="50.0" layoutX="11.0" layoutY="260.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../../../build/resources/main/dice5.png" />
+            </image>
+            <cursor>
+                <Cursor fx:constant="HAND" />
+            </cursor>
+        </ImageView>
+        <ImageView fx:id="dice42" fitHeight="50.0" fitWidth="50.0" layoutX="11.0" layoutY="260.0" opacity="0.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../../../build/resources/main/dice4.png" />
+            </image>
+            <cursor>
+                <Cursor fx:constant="HAND" />
+            </cursor>
+        </ImageView>
+        <ImageView fx:id="dice12" fitHeight="50.0" fitWidth="50.0" layoutX="11.0" layoutY="260.0" opacity="0.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../../../build/resources/main/dice1.png" />
+            </image>
+            <cursor>
+                <Cursor fx:constant="HAND" />
+            </cursor>
+        </ImageView>
+        <ImageView fx:id="dice32" fitHeight="50.0" fitWidth="50.0" layoutX="11.0" layoutY="260.0" opacity="0.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../../../build/resources/main/dice3.png" />
+            </image>
+            <cursor>
+                <Cursor fx:constant="HAND" />
+            </cursor>
+        </ImageView>
+        <ImageView fx:id="dice22" fitHeight="50.0" fitWidth="50.0" layoutX="11.0" layoutY="260.0" opacity="0.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../../../build/resources/main/dice2.png" />
+            </image>
+            <cursor>
+                <Cursor fx:constant="HAND" />
+            </cursor>
+        </ImageView>
+        <ImageView fx:id="dice62" fitHeight="50.0" fitWidth="50.0" layoutX="11.0" layoutY="260.0" opacity="0.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../../../build/resources/main/dice6.png" />
+            </image>
+            <cursor>
+                <Cursor fx:constant="HAND" />
+            </cursor>
+        </ImageView>
+        <ImageView fitHeight="469.0" fitWidth="90.0" layoutX="511.0" layoutY="33.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../../../build/resources/main/S&amp;L.png" />
+            </image>
+        </ImageView>
+        <Rectangle fx:id="overB" arcHeight="5.0" arcWidth="5.0" fill="BLACK" height="550.0" stroke="BLACK" opacity="0.5" strokeType="INSIDE" width="660.0" />
+
+        <ImageView fx:id="exit" fitHeight="120.0" fitWidth="71.0" layoutX="575.0" layoutY="429.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../../../build/resources/main/door.png" />
+            </image>
+        </ImageView>
+
+
+        <ImageView fx:id="imagePlayer1" fitHeight="37.0" fitWidth="50.0" layoutX="15.0" layoutY="446.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../../../build/resources/main/player4.png" />
+            </image>
+        </ImageView>
+        <ImageView fx:id="imagePlayer2" fitHeight="37.0" fitWidth="50.0" layoutX="45.0" layoutY="446.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../../../build/resources/main/player2.png" />
+            </image>
+        </ImageView>
+        <ImageView fx:id="imagePlayer3" fitHeight="37.0" fitWidth="50.0" layoutX="75.0" layoutY="446.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../../../build/resources/main/player3.png" />
+            </image>
+        </ImageView>
+
+        <ImageView fx:id="sound" fitHeight="28.0" fitWidth="37.0" layoutX="5" layoutY="5" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@sound.png" />
+            </image></ImageView>
+        <ImageView fx:id="soundMute" visible="false" fitHeight="28.0" fitWidth="37.0" layoutX="5" layoutY="5" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@soundMute.png" />
+            </image></ImageView>
+
+    </children>
+
+</AnchorPane>
